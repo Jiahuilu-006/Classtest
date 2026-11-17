@@ -33,17 +33,17 @@ Use Python 3.10+; no external dependencies are required.
 
 From inside this folder:
 
-\`\`\`bash
+```bash
 python operator_overloading.py
 python inheritance.py
 python -m unittest discover -v
-\`\`\`
+```
 
 Or, from the repository root:
 
-\`\`\`bash
+```bash
 python -m unittest discover -s Exercise_3_OOP_Problems -v
-\`\`\`
+```
 
 The two sections each define a Person class for different exercises, so they are kept in separate Python modules. Bank account amounts use Decimal to avoid ordinary binary floating-point rounding issues. Interest rate is a fraction (e.g. 0.05 means 5%).
 
