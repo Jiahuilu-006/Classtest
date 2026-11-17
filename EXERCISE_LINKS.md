@@ -1,18 +1,42 @@
-# OOP Practice — Submission Links
+# OOP Course — Submission Links
 
 Repository: https://github.com/Jiahuilu-006/Classtest
 
-| Course activity | GitHub submission | Notes |
-| --- | --- | --- |
-| Linux / Bash development environment (PDF page 18) | [Exercise 1: Bash setup](Exercise_1_Bash/env_install.sh) | Already in repository; preserved |
-| Git / GitHub workflow (PDF page 26) | [Repository](../../) | Existing public repository and commit history demonstrate Git workflow |
-| UML hospital modeling (PDF page 68) | [UML class and sequence diagrams](UML_Exercise_1_Hospital_Management.md) | Already in repository; preserved |
-| UML implementation extension (PDF page 68: “then you can implement it”) | [Python implementation](Exercise_3_Hospital_Implementation/hospital.py), [Tests](Exercise_3_Hospital_Implementation/test_hospital.py), [Instructions](Exercise_3_Hospital_Implementation/README.md) | Added as an educational extension; not a separate numbered assignment in the source PDF |
+## Exercise 1 — Linux / Bash environment setup (PDF page 18)
 
-## Source exercises awaiting verification
+- **Main submission:** [env_install.sh](Exercise_1_Bash/env_install.sh)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_1_Bash/env_install.sh
+- Status: existing file preserved.
 
-- OOP short exercise (PDF page 67): https://gist.github.com/bdallard/b2f2c910e3a9b564a30c86991c97b4fc
-- Git workflow exercise (PDF page 26): https://gist.github.com/bdallard/8bdbdd70f234f94823c0c2cde9515388
-- UML exercise (PDF page 68): https://gist.github.com/bdallard/2d2407c4de4c182afca6d3ec7235e9eb
+## Exercise 2 — Git / GitHub workflow (PDF page 26)
 
-The original external exercise statements could not all be inspected during this update, so this index does **not** claim that every teacher task is complete. The Google Spreadsheet submission tracker was not edited.
+- **Repository with commit history:** https://github.com/Jiahuilu-006/Classtest
+- Status: repository and commit history exist. The exact external gist instructions were not retrieved, so completion against every requirement is not verified.
+
+## Exercise 3 — OOP Problems (PDF page 67)
+
+These solutions follow the original questions supplied by the student.
+
+- **Whole exercise / instructions:** [README.md](Exercise_3_OOP_Problems/README.md)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/README.md
+- **Operator Overloading:** [operator_overloading.py](Exercise_3_OOP_Problems/operator_overloading.py)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/operator_overloading.py
+- **Inheritance:** [inheritance.py](Exercise_3_OOP_Problems/inheritance.py)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/inheritance.py
+- **Unit tests:** [test_oop_problems.py](Exercise_3_OOP_Problems/test_oop_problems.py)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/test_oop_problems.py
+
+The original handout omits Operator Overloading Problem 3. No replacement problem was invented.
+
+## Exercise 4 — UML Hospital Management (PDF page 68)
+
+- **Visual diagrams (Mermaid class diagram, role overview, and sequence diagrams):** [README.md](Exercise_4_UML_Hospital_Visual/README.md)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_4_UML_Hospital_Visual/README.md
+- **Detailed written UML solution (PlantUML):** [UML_Exercise_1_Hospital_Management.md](UML_Exercise_1_Hospital_Management.md)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/UML_Exercise_1_Hospital_Management.md
+- **Optional Python implementation:** [hospital.py](Exercise_3_Hospital_Implementation/hospital.py)
+- Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_Hospital_Implementation/hospital.py
+
+## Submission guidance
+
+If the submission sheet has one row per exercise, use the main link shown in each section. If Operator Overloading and Inheritance are separate rows, use their individual links. Test and optional implementation links are supplementary. The original externally linked Git workflow instructions were not available for full verification.
