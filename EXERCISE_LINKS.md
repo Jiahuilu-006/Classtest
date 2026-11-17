@@ -17,6 +17,9 @@ Repository: https://github.com/Jiahuilu-006/Classtest
 
 These solutions follow the original questions supplied by the student.
 
+- **Single submission link containing ALL Exercise 3 answers (Part 1 + Part 2):** [EXERCISE_3_COMPLETE.md](Exercise_3_OOP_Problems/EXERCISE_3_COMPLETE.md)
+- **Copy this URL:** https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/EXERCISE_3_COMPLETE.md
+
 - **Whole exercise / instructions:** [README.md](Exercise_3_OOP_Problems/README.md)
 - Link: https://github.com/Jiahuilu-006/Classtest/blob/main/Exercise_3_OOP_Problems/README.md
 - **Operator Overloading:** [operator_overloading.py](Exercise_3_OOP_Problems/operator_overloading.py)
