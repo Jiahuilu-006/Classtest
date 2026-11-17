@@ -8,7 +8,7 @@ The icons identify the roles and major domain objects.
 
 ## 1. Class diagram: main entities and relationships
 
-\`\`\`mermaid
+```mermaid
 classDiagram
     direction LR
     class Patient {
@@ -69,11 +69,11 @@ classDiagram
     PaymentMethod <|.. CashPayment
     PaymentMethod <|.. CheckPayment
     PaymentMethod <|.. CreditCardPayment
-\`\`\`
+```
 
 ## 2. Icon-based overview (who does what)
 
-\`\`\`mermaid
+```mermaid
 flowchart LR
   P["🧑 Patient"] -->|Submits problem| H["📋 Health Problem"]
   O["🗂️ Organizer"] -->|Assigns case| D["🩺 Doctor"]
@@ -87,11 +87,11 @@ flowchart LR
   METHOD --> CHECK["🧾 Check"]
   METHOD --> CARD["💳 Credit Card"]
   O -->|Forwards successful payment| D
-\`\`\`
+```
 
 ## 3. Sequence diagram: consultation and payment
 
-\`\`\`mermaid
+```mermaid
 sequenceDiagram
   actor Patient
   participant System as Hospital System
@@ -117,11 +117,11 @@ sequenceDiagram
     PaymentMethod-->>System: Failure
     System-->>Patient: Payment failed
   end
-\`\`\`
+```
 
 ## 4. Sequence diagram: patient registration
 
-\`\`\`mermaid
+```mermaid
 sequenceDiagram
   actor Organizer
   participant System as Hospital System
@@ -135,7 +135,7 @@ sequenceDiagram
   else Invalid or duplicate details
     System-->>Organizer: registrationRejected(reason)
   end
-\`\`\`
+```
 
 ## Notes
 
